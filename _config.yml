@@ -28,6 +28,7 @@ domain: MollyJameson.github.io       # if you want to force HTTPS, specify the d
 url: https://MollyJameson.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /SuddCitySite      # place folder name if the site is served in a subfolder
 twitter_username: SuddCity
+youtube_username: "@suddcity9186"
 $background-color: fd0000
 
 # Build settings
