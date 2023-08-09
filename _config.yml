@@ -26,18 +26,22 @@ description: >- # this means to ignore newlines until "baseurl:"
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 domain: MollyJameson.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://MollyJameson.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /SuddCitySite/      # place folder name if the site is served in a subfolder
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: /SuddCitySite      # place folder name if the site is served in a subfolder
+twitter_username: SuddCity
+$background-color: fd0000
 
 # Build settings
-#theme: minima
-remote_theme: jekyll/minima
-plugins:
-  - jekyll-feed
+theme: minima
 
-minima:
-  skin: dark
+# to get Dark theme
+#remote_theme: jekyll/minima
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
