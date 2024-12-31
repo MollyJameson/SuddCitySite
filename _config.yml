@@ -24,11 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sudd City Adventures is a short adventure game about superheroes in their off time.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-domain: MollyJameson.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://MollyJameson.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /SuddCitySite      # place folder name if the site is served in a subfolder
+domain: suddcity.com     # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://suddcity.com  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: ""      # place folder name if the site is served in a subfolder
 twitter_username: SuddCity
-youtube_username: "@suddcity9186"
+youtube_username: "@UltraRat"
 $background-color: fd0000
 
 # Build settings
